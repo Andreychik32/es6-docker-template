@@ -24,7 +24,8 @@ cd app/
 yarn build
 ```
 This will compile your code and insert compiled code into the dist directory.
-4. For production use:
+
+4. For production use, just type:
 ```sh
 sudo docker-compose up -d
 ```
