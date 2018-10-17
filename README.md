@@ -2,6 +2,7 @@
 
 ## Features
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 - Supports ES6 syntax out-of-the-box.
 - Developer mode using nodemon and production mode using Docker.
 - Contains ESLint for better coding.
@@ -17,11 +18,18 @@ cd app/
 yarn install
 yarn dev
 ```
-3. For production use:
+3. To build your code, please use:
+```sh
+cd app/
+yarn build
+```
+This will compile your code and insert compiled code into the dist directory.
+4. For production use:
 ```sh
 sudo docker-compose up -d
 ```
-1. To lint code:
+5. To lint code:
 ```sh
-./app/node_modules/.bin/eslint ./app
+cd app/
+yarn lint
 ```
