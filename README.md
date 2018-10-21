@@ -3,7 +3,9 @@
 ## Features
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+[![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.png?v=101)](https://typescriptlang.org/)
 - Supports ES6 syntax out-of-the-box.
+- Supports Typescript development and production use.
 - Developer mode using nodemon and production mode using Docker.
 - Contains ESLint for better coding.
 - Designed for Javascript Standard style.
